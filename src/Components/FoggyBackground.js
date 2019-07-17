@@ -18,10 +18,12 @@ export default class FoggyBackground extends React.Component {
         if (this.effect) this.effect.destroy()
     }
     render() {
-        return <div
-                    ref={background => {
-                        this.background = background;
-                    }}>
-                </div>
+        return (
+            <div className='background'
+                ref={background => {
+                    this.background = background;
+                }}>
+            </div>
+        );
     }
 }
