@@ -1,6 +1,6 @@
-p {
+/* p {
   color: black;
-}
+} */
 
 .background {
   position: absolute;
@@ -23,6 +23,7 @@ p {
 .title_container {
   height: 100%;
   display: flex;
+  color: #424242;
   flex-direction: column;
   justify-content: center;
 }
