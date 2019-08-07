@@ -6,12 +6,12 @@ export default class FoggyBackground extends React.Component {
         this.effect = window.VANTA.FOG({
             el: back,
             highlightColor: 0xffffff,
-            midtoneColor: 0x555555,
-            lowlightColor: 0xbbbbbb,
+            midtoneColor: 0xbbbbbb,
+            lowlightColor: 0xaaaaaa,
             baseColor: 0xffffff,
-            blurFactor: 0.42,
-            speed: 0.42,
-            zoom: 1
+            blurFactor: 0.45,
+            speed: 0.3,
+            zoom: 2
         })
     }
     componentWillUnmount() {
