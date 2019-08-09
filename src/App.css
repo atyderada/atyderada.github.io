@@ -1,6 +1,33 @@
-/* p {
-  color: black;
-} */
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
 
 .background {
   position: absolute;
@@ -9,81 +36,4 @@
   z-index: 0;
   left: 0;
   top: 0;
-}
-
-.foreground {
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  display: flex;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  left: 0;
-  top: 0;
-}
-
-.card {
-  border-radius: 8px;
-  background-color: rgba(256, 256, 256, 0.3);
-}
-
-.title_container {
-  width: 70%;
-  color: #424242;
-}
-
-.title {
-  font-size: 2.5em;
-  font-weight: 450;
-  margin-bottom: 20px;
-}
-
-.subtitle {
-  font-size: 1.2em;
-  font-weight: 400;
-  margin-top: 0;
-}
-
-.icon_button {
-  position: absolute;
-  opacity: 0.7;
-  z-index: 2;
-}
-
-.App {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

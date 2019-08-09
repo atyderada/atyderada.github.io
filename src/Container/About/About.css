@@ -1,0 +1,195 @@
+#aboutContainer {
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: white;
+    border-top: 1px solid #aaa;
+}
+#topArrow {
+    position: absolute;
+    z-index: 2;
+    top: 28px;
+    right: 22px;
+}
+.control {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#aboutlogo {
+    position: absolute;
+    z-index: 2;
+    top: 28px;
+    left: 28px;
+    transition: all 0.4s ease;
+}
+#top {
+    top: 0;
+    z-index: 1;
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 0 25% 0;
+    /* background-color: transparent; */
+}
+.aboutInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.aboutExtra {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#aboutTitle {
+    font-size: 12pt;
+    font-weight: 550;
+    margin-bottom: 35px;
+}
+#aboutPicture {
+    min-width: 150px;
+    width: 150px;
+    height: 150px;
+    border-width: 1px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    background-size: cover;
+    background-position:center center;
+    background-image: url('../../assets/Profile.JPG');
+}
+.aboutText {
+    font-size: 10pt;
+    line-height: 20pt;
+}
+#iconsContainer {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 35px;
+}
+.aboutIcon {
+    width: 40px;
+    height: 45px;
+    transition: all 0.9s ease-out;
+}
+#backBottom {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 20vh;
+    /* background-color: #aaa; */
+    background-color: #555;
+}
+#middleBottom {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 16vh;
+    /* background-color: #555; */
+    background-color: #1b1b1b;
+    border-radius: 24% 0 0 0;
+}
+#footer {
+    bottom: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    color: white;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.iconButton {
+    width: 24px;
+    height: 24px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+@media only screen and (min-width: 750px) {
+    /* For desktop: */
+    #top {
+        width: 70vw;
+        padding: 0 15vw;
+    }
+    #topArrow {
+        top: 52px;
+        right: 54px;
+    }
+    #topArrow:hover {
+        transform: scale(1.2) translateY(-8px);
+    }
+    #aboutlogo {
+        left: 50px;
+        top: 42px;
+    }
+    #aboutlogo:hover {
+        transform: scale(1.3);
+    }
+    #aboutTitle {
+        font-size: 15pt;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+    #aboutPicture {
+        min-width: 280px;
+        width: 280px;
+        height: 280px;
+        margin-bottom: 0;
+        margin-right: 50px;
+    }
+    #iconsContainer {
+        margin-bottom: 15px;
+    }
+    .aboutIcon {
+        margin: 0 20px 0 15px;
+        width: 30pt;
+        height: 35pt;
+    }
+    .control {
+        width: 50px;
+        height: 50px;
+    }
+    .aboutText {
+        font-size: 13pt;
+        line-height: 40pt;
+        font-weight: 450;
+    }
+    .aboutInner {
+        flex-direction: row;
+        margin-bottom: 35px;
+    }
+    .iconButton {
+        width: 30px;
+        height: 30px;
+        opacity: 0.7;
+        cursor: pointer;
+        transition: all 0.4s;
+    }
+    .iconButton:hover {
+        opacity: 1;
+        transform: scale(1.4);
+    }
+    #roseImg:hover {
+        transform: scale(1.2) rotate(360deg);
+    }
+    #boliviaImg:hover {
+        transform: scale(1.2) rotate(360deg);
+    }
+}

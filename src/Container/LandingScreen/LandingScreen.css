@@ -1,0 +1,150 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#titleFrame {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+#title {
+    display: block;
+    font-size: 24px;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    /*   color: #ededed; */
+    color: black;
+    height: 20px;
+}
+#subtitle {
+    display: block;
+    font-size: 8px;
+    letter-spacing: 4px;
+    font-family: avenir, helvetica;
+    white-space: nowrap;
+    /*   color: #ededed; */
+    color: black;
+    height: 6px;
+}
+.controllers {
+    position: absolute;
+    z-index: 3;
+    height: 100vh;
+    width: 100vw;
+}
+#menu {
+    position: absolute;
+    top: 25px;
+    right: 21px;
+    transition: all 0.4s;
+}
+#bottomArrow {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transition: all 0.4s;
+}
+#gallery {
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 35px;
+    left: 36px;
+    font-size: 8pt;
+    line-height: 8pt;
+    transition: all 0.4s ease;
+}
+#lanlogo {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    transition: all 0.4s ease;
+}
+#logoImage {
+    width: 22px;
+    height: 22px;
+}
+.control {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+@-webkit-keyframes slide-in {
+    100% { top: 0 }
+}
+@keyframes slide-in {
+    100% { top: 0 } 
+}
+@media only screen and (min-width: 1025px) {
+    #title {
+        height: 42px;
+        font-size: 42px;
+        letter-spacing: 7px;
+    }
+    #subtitle {
+        font-size: 12px;
+        letter-spacing: 7px;
+        height: 12px;
+    }
+    #logoImage {
+        width: 35px;
+        height: 35px;
+    }
+    #menu {
+        position: absolute;
+        top: 42px;
+        right: 50px;
+    }
+    #bottomArrow {
+        position: absolute;
+        bottom: 25px;
+        right: 50px;
+    }
+    #scroll {
+        position: absolute;
+        bottom: 15px;
+        right: 50%;
+    }
+    #gallery {
+        position: absolute;
+        letter-spacing: 1pt;
+        font-size: 10pt;
+        line-height: 10pt;
+        bottom: 45px;
+        left: 55px;
+    }
+    #lanlogo {
+        left: 50px;
+        top: 42px;
+    }
+    .control {
+        width: 50px;
+        height: 50px;
+        font-size: 12px;
+    }
+    #bottomArrow:hover {
+        transform: scale(1.4) translateY(6px);
+    }
+    #lanlogo:hover {
+        cursor: none;
+        transform: scale(1.3);
+    }
+    #menu:hover {
+        transform: scale(1.2) rotate(90deg) translateX(-10px) translateY(6px);
+    }
+    #gallery:hover {
+        font-size: 14pt;
+        line-height: 14pt;
+        left: 58px;
+    }
+}
