@@ -19,7 +19,7 @@ export default class FoggyBackground extends React.Component {
             midtoneColor: 0xeeeeee,
             lowlightColor: 0xCBE0F8,
             baseColor: 0x3884E9,
-            blurFactor: 0.26,
+            blurFactor: 0.24,
             speed: 0.2,
             zoom: 1.8
         })
