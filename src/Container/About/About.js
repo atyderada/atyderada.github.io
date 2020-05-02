@@ -15,14 +15,17 @@ const about = ( props ) => {
         extra = 
             <div className="aboutExtra">
                 <div className="aboutText">
-                    <span>I graduated from Rose-Hulman in May 2018</span> <a href="http://www.rose-hulman.edu/" target="_blank" rel="noopener noreferrer">
-                        <img id="roseImg" className="aboutIcon" src={require('../../assets/Rose-Logo.png')} alt="Rose Hulman Icon" />
-                    </a>
                     I was born and raised in the vibrant city of La Paz, Bolivia  <a href="https://www.youtube.com/playlist?list=PLFTQSQOjNIfNKpVekjwU3pzDtlZBKVYp3" target="_blank" rel="noopener noreferrer">
                         <img id="boliviaImg" className="aboutIcon" src={require('../../assets/bolivia-map.png')} alt="Bolivia map" />
                     </a>
-                    My favorite things are music, food, sports, travel and photography.
+                    <br />
+                    I graduated with a Bachelor's degree in Computer Science from Rose-Hulman in May 2018 <a href="http://www.rose-hulman.edu/" target="_blank" rel="noopener noreferrer">
+                        <img id="roseImg" className="aboutIcon" src={require('../../assets/Rose-Logo.png')} alt="Rose Hulman Icon" />
+                    </a>
+                    <br />
+                    My favorite hobbies are running, hiking, coding and photography.
                     Feel free to check out the links bellow or contact me through email.
+                    <br />
                     Have a great day!
                 </div>
             </div>
@@ -61,10 +64,12 @@ const about = ( props ) => {
                 <div className="aboutInner">
                     <div id="aboutPicture"></div>
                     <span className="aboutText">
-                        Hey There!
-                        I'm a software developer / designer with an edge for Web/Mobile Application Design and Development.
-                        I love designing clean interfaces and implementing them into smooth and engaging Applications.
-                        My go to tools are the adobe creative suite, Sketch, Javascript/Typescript and PHP.
+                        Hey there!
+                        I'm a Software Enigeer with an edge for developing scalable, cloud based Applications.
+                        <br />
+                        Over the past few years I worked at <a href="https://www.myhelo.com/" target="_blank" rel="noopener noreferrer">myhELO</a> and <a href="https://www.clearobject.com/" target="_blank" rel="noopener noreferrer">ClearObject</a> as a Full Stack Developer where I grew my technical skills working on a Healthcare web application and GCP projects that leverage Machine Learning.
+                        <br />
+                        My go-to languages and frameworks are Python, Go, Javascript, Django, Flask and React. I'm also very skilled with Docker, K8s, helm and have a burning passion for MLOps.
                     </span>
                 </div>
                 {extra}

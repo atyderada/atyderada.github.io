@@ -87,14 +87,14 @@
 }
 @media only screen and (min-width: 1025px) {
     #title {
-        height: 42px;
-        font-size: 42px;
-        letter-spacing: 7px;
+        height: 60px;
+        font-size: 60px;
+        letter-spacing: 8px;
     }
     #subtitle {
-        font-size: 12px;
+        font-size: 18px;
         letter-spacing: 7px;
-        height: 12px;
+        height: 18px;
     }
     #logoImage {
         width: 35px;

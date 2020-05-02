@@ -51,7 +51,7 @@ const landing = ( props ) => {
                         <div id="title">Anthony De Rada</div>
                         <br />
                         <br />
-                        <div id="subtitle">DEVELOPER | DESIGNER</div>
+                        <div id="subtitle">SOFTWARE ENGINEER</div>
                     </div>
                 {/* </Link> */}
             </div>
