@@ -114,7 +114,7 @@
     bottom: 0;
     z-index: 1;
     width: 100vw;
-    height: 12vh;
+    height: 5vh;
     display: flex;
     color: white;
     position: fixed;
@@ -199,5 +199,8 @@
     }
     #boliviaImg:hover {
         transform: scale(1.2) rotate(360deg);
+    }
+    #footer {
+        height: 12vh;
     }
 }
