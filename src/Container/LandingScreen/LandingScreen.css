@@ -22,13 +22,13 @@
     align-items: center;
 }
 #title {
+    color: black;
     display: block;
     font-size: 28px;
-    letter-spacing: 5px;
+    letter-spacing: 6px;
     white-space: nowrap;
+    margin-bottom: 10px;
     /*   color: #ededed; */
-    color: black;
-    height: 10px;
 }
 #subtitle {
     display: block;
@@ -38,7 +38,6 @@
     white-space: nowrap;
     /*   color: #ededed; */
     color: black;
-    height: 6px;
 }
 .controllers {
     position: absolute;
@@ -95,14 +94,13 @@
 }
 @media only screen and (min-width: 1025px) {
     #title {
-        height: 60px;
         font-size: 60px;
+        margin-bottom: 12px;
         letter-spacing: 8px;
     }
     #subtitle {
         font-size: 18px;
         letter-spacing: 7px;
-        height: 18px;
     }
     #logoImage {
         width: 35px;

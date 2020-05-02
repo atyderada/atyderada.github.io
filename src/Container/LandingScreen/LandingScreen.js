@@ -49,8 +49,6 @@ const landing = ( props ) => {
                 {/* <Link to='/about'> */}
                     <div id="titleFrame">
                         <div id="title">Anthony De Rada</div>
-                        <br />
-                        <br />
                         <div id="subtitle">SOFTWARE ENGINEER</div>
                     </div>
                 {/* </Link> */}
