@@ -52,13 +52,6 @@ const about = ( props ) => {
                         src={require('../../assets/logo.png')} alt='Adr-logo' />
                 </div>
             </Link>
-            {/* <div id="waves">
-                <div className="wave wave_1"></div>
-                <div className="wave wave_2"></div>
-                <div className="wave wave_3"></div>
-                <div className="wave wave_4"></div>
-                <div className="wave wave_5"></div>
-            </div> */}
             <div id="top">
                 <span id="aboutTitle">ABOUT</span>
                 <div className="aboutInner">
