@@ -71,6 +71,7 @@
     background-image: url('../../assets/Profile.JPG');
 }
 .aboutText {
+    width: 100%;
     font-size: 10pt;
     line-height: 20pt;
 }
