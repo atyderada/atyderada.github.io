@@ -19,7 +19,7 @@ const landing = ( props ) => {
     }
 
     return (
-        <div>
+        <div id="landingContainer">
             <FoggyBackground />
             <div className="controllers">
                 <div id="lanlogo">
