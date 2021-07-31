@@ -2,10 +2,11 @@
     height: 100vh;
     width: 100vw;
     display: flex;
+    color: black;
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-color: white;
+    background-color: #efefef;
     border-top: 1px solid #aaa;
 }
 #topArrow {
@@ -77,7 +78,7 @@
 }
 
 .aboutText a {
-    color: white;
+    color: darkblue;
     text-decoration: none;
 }
 #iconsContainer {
@@ -122,7 +123,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 .iconButton {
     width: 24px;

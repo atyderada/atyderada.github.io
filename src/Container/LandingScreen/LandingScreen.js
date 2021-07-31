@@ -1,7 +1,6 @@
 import React from 'react';
 import './LandingScreen.css';
 import { Link } from 'react-router-dom';
-import FoggyBackground from '../../Components/FoggyBackground';
 
 const landing = ( props ) => {
 
@@ -20,7 +19,6 @@ const landing = ( props ) => {
 
     return (
         <div id="landingContainer">
-            <FoggyBackground />
             <div className="controllers">
                 <div id="lanlogo">
                     <img

@@ -1,7 +1,6 @@
 import React from 'react';
 import './About.css';
 import { Link } from 'react-router-dom';
-import FoggyBackground from '../../Components/FoggyBackground';
 
 const about = ( props ) => {
 
@@ -37,11 +36,10 @@ const about = ( props ) => {
     }
     return (
         <div id="aboutContainer">
-            <FoggyBackground />
             <Link to='/'>
                 <div className="control" id="topArrow" >
                     <svg style={iconsStyle} viewBox="0 0 24 24">
-                        <path fill="#000000" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" />
+                        <path fill="#000" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" />
                     </svg>
                 </div>
             </Link>
